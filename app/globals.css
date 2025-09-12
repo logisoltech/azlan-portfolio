@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --color-neutral-300: #d4d4d8;
+  --color-neutral-100: #f4f4f5;
+  --color-neutral-500: #71717a;
+  --color-neutral-700: #3f3f46;
+  --color-neutral-900: #18181b;
+  --color-neutral-800: #27272a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #ffffff;
+    --color-neutral-300: #d4d4d8;
+    --color-neutral-100: #f4f4f5;
+    --color-neutral-500: #71717a;
+    --color-neutral-700: #3f3f46;
+    --color-neutral-900: #18181b;
+    --color-neutral-800: #27272a;
+  }
+}
+
+@theme inline {
+  --animate-aurora: aurora 60s linear infinite;
+  @keyframes aurora {
+    from {
+      background-position:
+        50% 50%,
+        50% 50%;
+    }
+    to {
+      background-position:
+        350% 50%,
+        350% 50%;
+    }
+  }
+}
+
+/* Custom gradient button styles */
+.gradient-btn-contact {
+  background: linear-gradient(to bottom right, #ffffff, #e879f9e6, #a5b4fc1a);
+  transition: all 0.5s ease-in-out;
+}
+
+.gradient-btn-contact:hover {
+  background: linear-gradient(to top right, #ffffff, #e879f9e6, #a5b4fc1a);
+}
+
+.gradient-btn-cv {
+  background: linear-gradient(to bottom left, #ffffff, #e879f9e6, #a5b4fc1a);
+  transition: all 0.5s ease-in-out;
+}
+
+.gradient-btn-cv:hover {
+  background: linear-gradient(to top left, #ffffff, #e879f9e6, #a5b4fc1a);
+}
+
+@theme inline {
+  --animate-cell-ripple: cell-ripple var(--duration, 200ms) ease-out none 1
+    var(--delay, 0ms);
+ 
+  @keyframes cell-ripple {
+    0% {
+      opacity: 0.4;
+      background-color: var(--cell-fill-color);
+      box-shadow: inset 0 0 0px #666666;
+    }
+    50% {
+      opacity: 0.9;
+      background-color: #444444;
+      box-shadow: inset 0 0 15px #888888;
+    }
+    100% {
+      opacity: 0.4;
+      background-color: var(--cell-fill-color);
+      box-shadow: inset 0 0 0px #666666;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #efb8ff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f959ff;
+}
