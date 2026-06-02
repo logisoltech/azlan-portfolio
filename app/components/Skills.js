@@ -43,9 +43,9 @@ const Skills = () => {
         </div>
         
         {isClient && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-6 gap-y-10 max-w-7xl mx-auto">
             {skills.map((skill, index) => (
-              <div key={index} className="min-h-32 w-full flex items-center justify-center overflow-visible px-1">
+              <div key={index} className="h-32 w-full flex items-center justify-center overflow-hidden px-3">
                 <TextHoverEffect text={skill.name} />
               </div>
             ))}

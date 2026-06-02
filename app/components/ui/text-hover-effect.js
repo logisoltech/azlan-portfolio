@@ -13,11 +13,8 @@ export const TextHoverEffect = ({
   const [maskPosition, setMaskPosition] = useState({ cx: 0.5, cy: 0.5 });
 
   const viewBoxHeight = 100;
-  const fontSize = 52;
-  const viewBoxWidth = Math.max(300, text.length * 20 + 80);
-  const displayHeight = 128;
-  const scale = displayHeight / viewBoxHeight;
-  const displayWidth = viewBoxWidth * scale;
+  const viewBoxWidth = 320;
+  const fontSize = Math.min(52, (viewBoxWidth - 20) / (text.length * 0.55));
   const textStyle = { fontSize, fontWeight: 700 };
 
   useEffect(() => {
@@ -35,8 +32,8 @@ export const TextHoverEffect = ({
   return (
     <svg
       ref={svgRef}
-      width={displayWidth}
-      height={displayHeight}
+      width="100%"
+      height={128}
       viewBox={`0 0 ${viewBoxWidth} ${viewBoxHeight}`}
       preserveAspectRatio="xMidYMid meet"
       xmlns="http://www.w3.org/2000/svg"
