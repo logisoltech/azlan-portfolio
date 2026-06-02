@@ -11,8 +11,8 @@ const Hero = () => {
         <div className='flex items-center justify-between px-20 text-white h-[40rem] pt-20'>
         <div className='flex flex-col gap-4'>
           <p className='text-5xl font-bold'><span className='text-fuchsia-400'>Hello,</span> I'm Azlan Khan</p>
-            <p>Full Stack Engineer. Blockchain Developer. AI Engineer</p>
-            <p className='max-w-xl'>I'm a full stack engineer with over 9+ years of experience in the industry with a passion for building web and mobile applications. I'm also a blockchain developer and an AI engineer.</p>
+            <p>Full Stack Engineer. CMS Developer. AI Engineer</p>
+            <p className='max-w-xl'>I'm a full stack and CMS developer with over 9+ years of experience building web and mobile apps on WordPress, Shopify, and custom stacks. I'm also an AI engineer.</p>
             <div className='flex space-x-4'>
 
             <button className='bg-gradient-to-r from-white via-fuchsia-300/90 to-indigo-300/90

@@ -14,33 +14,33 @@ const Work = () => {
   const workExperience = [
     {
       company: "Pluton",
-      position: "Blockchain Developer",
+      position: "WordPress Developer",
       duration: "Feb 17 - May 18",
-      description: "Learnt more about JavaScript, Solidity, Web3 and Rust and build a few projects and contributed with the team to deliver smart contracts that never disappointed."
+      description: "Built and customized WordPress themes and plugins, configured WooCommerce stores, and optimized sites for performance, SEO, and responsive layouts."
     },
     {
       company: "Decrypted Labs", 
-      position: "Blockchain Developer",
+      position: "Shopify Developer",
       duration: "June 18 - July 20",
-      description: "Built smart contracts and DeFi applications using Solidity and Web3 technologies."
+      description: "Developed Shopify storefronts with custom Liquid themes, product catalogs, checkout flows, and third-party app integrations for ecommerce clients."
     },
     {
       company: "Logisol Technologies",
-      position: "Tech Lead Full Stack Engineer",
+      position: "Tech Lead · Full Stack & CMS Developer",
       duration: "May 25 - Present",
-      description: "Working on full-stack development projects like CMS, ERPs & Ecommerce Websites and Mobile Apps and collaborating with cross-functional teams."
+      description: "Lead full-stack and CMS delivery across WordPress, Shopify, and custom CMS builds—plus ERPs, ecommerce sites, and mobile apps—while collaborating with cross-functional teams."
     },
     {
       company: "i-MSConsulting",
-      position: "Full Stack Developer", 
+      position: "Full Stack & CMS Developer", 
       duration: "July 20 - Dec 23",
-      description: "Developed machine learning models and AI solutions for various ERP applications & Mainly focused on backend alongside with a little bit of frontend for HRMs."
+      description: "Built ERP and HRM platforms with CMS-backed admin portals and dashboards; developed ML/AI integrations on the backend with React frontends for client-facing web apps."
     },
     {
       company: "Tech Haven Pvt. Ltd.",
-      position: "Full Stack Developer",
+      position: "Full Stack & CMS Developer",
       duration: "Dec 23 - May 25", 
-      description: "Created responsive user interfaces using React, TypeScript, and modern CSS frameworks. Along side with error-free backends in SQL Server, MySQL and ExpressJS"
+      description: "Delivered client sites on WordPress and Shopify alongside React and TypeScript UIs, with reliable backends in SQL Server, MySQL, and ExpressJS."
     },
   ]
 

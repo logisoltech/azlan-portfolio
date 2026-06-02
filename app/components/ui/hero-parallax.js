@@ -67,7 +67,7 @@ export const Header = () => {
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 text-gray-300">
         A collection of my major projects showcasing my skills in full-stack development, 
-        blockchain technology, and AI engineering. Each project represents a unique 
+        WordPress, Shopify, CMS builds, and AI engineering. Each project represents a unique 
         challenge and solution.
       </p>
     </div>

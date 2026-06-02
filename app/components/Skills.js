@@ -20,10 +20,15 @@ const Skills = () => {
     { name: 'Angular', color: 'text-red-500' },
     { name: 'MySQL', color: 'text-blue-600' },
     { name: 'AWS', color: 'text-orange-400' },
-    { name: 'Solidity', color: 'text-gray-300' },
     { name: 'R. Native', color: 'text-blue-400' },
     { name: 'Swift', color: 'text-orange-500' },
-    { name: 'Rust', color: 'text-orange-600' }
+    { name: 'Rust', color: 'text-orange-600' },
+    { name: 'WordPress', color: 'text-white' },
+    { name: 'Shopify', color: 'text-white' },
+    { name: 'Webflow', color: 'text-white' },
+    { name: 'Wix', color: 'text-white' },
+    { name: 'Squarespace', color: 'text-white' },
+    { name: 'CMS', color: 'text-white' },
   ]
 
   return (
@@ -40,8 +45,8 @@ const Skills = () => {
         {isClient && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl mx-auto">
             {skills.map((skill, index) => (
-              <div key={index} className="h-32 w-full flex items-center justify-center">
-                <TextHoverEffect text={skill.name} duration={0.5} />
+              <div key={index} className="min-h-32 w-full flex items-center justify-center overflow-visible px-1">
+                <TextHoverEffect text={skill.name} />
               </div>
             ))}
           </div>

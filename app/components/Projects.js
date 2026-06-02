@@ -11,29 +11,19 @@ const Projects = () => {
       thumbnail: "/certifurb.png"
     },
     {
-      title: "NFT Marketplace", 
+      title: "WordPress Business Website",
       link: "#",
-      thumbnail: "/nft.png"
+      thumbnail: "/ba.png"
+    },
+    {
+      title: "Shopify Ecommerce Store",
+      link: "#",
+      thumbnail: "/certifurb.png"
     },
     {
       title: "Youtube Clone",
       link: "#", 
       thumbnail: "/yt-clone.png"
-    },
-    {
-      title: "Jointoil: Decentralised Funding Committee",
-      link: "#",
-      thumbnail: "/funding-platform.png"
-    },
-    {
-      title: "Decentralised Vending Machine",
-      link: "#",
-      thumbnail: "/vending.jpg"
-    },
-    {
-      title: "ECDSA Node",
-      link: "#",
-      thumbnail: "/ecdsa.jpg"
     },
     {
       title: "BASoftech's Website",
