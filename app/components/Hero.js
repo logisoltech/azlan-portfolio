@@ -20,7 +20,7 @@ const Hero = () => {
                 transition-all duration-500 ease-out
                 hover:bg-[position:100%_50%]
                 shadow-md hover:shadow-xl w-fit text-black px-4 py-2 rounded-2xl'>
-                Contact Me
+                Contact
             </button>
             
             </div>
